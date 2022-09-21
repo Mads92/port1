@@ -18,8 +18,8 @@ public abstract class Vessel {
 
     }
 
-    public void getCapacity(){
-
+    public double getCapacity(){
+        return carryCapacity;
     }
 
     public boolean checkCapacity(){
