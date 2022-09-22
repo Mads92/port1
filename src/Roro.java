@@ -25,7 +25,7 @@ public class Roro extends Vessel{
         }
         return false;
     }
-
+//POTENTIAL ISSUE, since the global variables aren't reset
     public void loadingCargo(int cars, int trucks) {
 
         double carLenghts = cars * 8.0;

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working 2 heh OOP">
+    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working, added description to Roro">
+      <change afterPath="$PROJECT_DIR$/src/RoroTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PortFolio1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PortFolio1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Roro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Roro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +31,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.RoroTest.roroAttemptLoadOverCapacity">
+    <configuration name="RoroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoroTest.roroAttemptLoadOverCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="roroAttemptLoadOverCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoroTest.roroHalvCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="roroHalvCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoroTest.roroLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="roroLoadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoroTest.roroUtitilityOfCapacityLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="roroUtitilityOfCapacityLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoroTest.roroAttemptLoadOverCapacity" />
+        <item itemvalue="JUnit.RoroTest" />
+        <item itemvalue="JUnit.RoroTest.roroHalvCapacity" />
+        <item itemvalue="JUnit.RoroTest.roroUtitilityOfCapacityLoad" />
+        <item itemvalue="JUnit.RoroTest.roroLoadTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +114,7 @@
       <workItem from="1663233353046" duration="3133000" />
       <workItem from="1663787866051" duration="200000" />
       <workItem from="1663788201329" duration="100000" />
-      <workItem from="1663837120023" duration="347000" />
+      <workItem from="1663837120023" duration="2498000" />
     </task>
     <task id="LOCAL-00001" summary="Currently working on Roro">
       <created>1663074823172</created>
@@ -78,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663788048197</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working, added description to Roro">
+      <created>1663837618888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663837618888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +172,7 @@
     <MESSAGE value="Currently working on Roro" />
     <MESSAGE value="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working" />
     <MESSAGE value="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working 2 heh OOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working 2 heh OOP" />
+    <MESSAGE value="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working, added description to Roro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working, added description to Roro" />
   </component>
 </project>
