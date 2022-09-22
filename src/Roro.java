@@ -1,4 +1,6 @@
 public class Roro extends Vessel{
+    //The RoRo vessels has a total amount of lane meters and can carry
+    //cars and trucks, each car is 8 meter long and each truck is 30 meters
     double laneMeters;
     double unusedLane;
     int carCount;
