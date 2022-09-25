@@ -27,4 +27,11 @@ public class RoroTest {
         assertEquals(0.5,r.utilitylevelOfCapacity());
     }
 
+    @Test
+    void roro0load(){
+        Roro r = new Roro("dk","Noget",35,20,32);
+        r.loadingCargo();
+        assertEquals(32,r.unusedLane);
+    }
+
 }
