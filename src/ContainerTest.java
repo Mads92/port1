@@ -23,4 +23,11 @@ public class ContainerTest {
         c.loadingCargo(20);
         assertEquals(15,c.freeSpaces);
     }
+
+    @Test
+    void capacityTest(){
+        ContainerVessel c = new ContainerVessel("Dk", "Hvad",10,20,10);
+        c.loadingCargo(5);
+        assertEquals(0.5,c.utilitylevelOfCapacity());
+    }
 }

@@ -1,9 +1,9 @@
 public class ContainerVessel extends Vessel{
 
-    int containerCapacity;
-    int containerUsage;
-    int freeSpaces;
-    ContainerVessel(String flagNation, String draft, int length, int width, int containerCapacity) {
+    double containerCapacity;
+    double containerUsage;
+    double freeSpaces;
+    ContainerVessel(String flagNation, String draft, int length, int width, double containerCapacity) {
         super(flagNation, draft, length, width);
         this.containerCapacity = containerCapacity;
         containerUsage = 0;
@@ -20,5 +20,9 @@ public class ContainerVessel extends Vessel{
              containerUsage += c;
              freeSpaces -= c;
         }
+    }
+
+    public double utilitylevelOfCapacity(){
+        return containerUsage/containerCapacity;
     }
 }

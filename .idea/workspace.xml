@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Roro testing has commenced">
-      <change afterPath="$PROJECT_DIR$/src/ContainerTest.java" afterDir="false" />
+    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Container loadingCargo should be good to go">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContainerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContainerVessel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContainerVessel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoroTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,17 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ContainerTest.loadBeyondMax">
+  <component name="RunManager" selected="JUnit.ContainerTest.capacityTest">
+    <configuration name="ContainerTest.capacityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContainerTest" />
+      <option name="METHOD_NAME" value="capacityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContainerTest.containerLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
@@ -83,23 +92,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoroTest.roroAttemptLoadOverCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PortFolio1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoroTest" />
-      <option name="METHOD_NAME" value="roroAttemptLoadOverCapacity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContainerTest.capacityTest" />
         <item itemvalue="JUnit.ContainerTest.loadBeyondMax" />
         <item itemvalue="JUnit.ContainerTest.loadMaxContainers" />
         <item itemvalue="JUnit.ContainerTest.containerLoadTest" />
         <item itemvalue="JUnit.RoroTest.roro0load" />
-        <item itemvalue="JUnit.RoroTest.roroAttemptLoadOverCapacity" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +115,7 @@
       <workItem from="1663787866051" duration="200000" />
       <workItem from="1663788201329" duration="100000" />
       <workItem from="1663837120023" duration="4174000" />
-      <workItem from="1664104574753" duration="2618000" />
+      <workItem from="1664104574753" duration="3297000" />
     </task>
     <task id="LOCAL-00001" summary="Currently working on Roro">
       <created>1663074823172</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663839807726</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Container loadingCargo should be good to go">
+      <created>1664107280165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664107280165</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +189,7 @@
     <MESSAGE value="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working 2 heh OOP" />
     <MESSAGE value="Currently working on Roro, loadingCargo and utilitylevelOfCapacity potentially working, added description to Roro" />
     <MESSAGE value="Roro testing has commenced" />
-    <option name="LAST_COMMIT_MESSAGE" value="Roro testing has commenced" />
+    <MESSAGE value="Container loadingCargo should be good to go" />
+    <option name="LAST_COMMIT_MESSAGE" value="Container loadingCargo should be good to go" />
   </component>
 </project>
