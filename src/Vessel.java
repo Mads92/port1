@@ -23,8 +23,10 @@ public abstract class Vessel {
     }
 
     public boolean checkCapacity(){
+        if (carryCapacity - usedCapacity >0){
+            return true;
+        }
         return false;
-
     }
 
     public double utilitylevelOfCapacity(){
