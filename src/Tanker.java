@@ -2,9 +2,10 @@ public class Tanker extends Vessel{
     int compartmentCount;
     Compartment[] compartments;
     Tanker(String flagNation, String draft, int length, int width, int compartmentCount, double compartmentCapacity) {
+
         super(flagNation, draft, length, width);
         this.compartmentCount = compartmentCount;
-         compartments= new Compartment[compartmentCount];
+        compartments= new Compartment[compartmentCount];
         for (int i = 0; i < compartments.length; i++) {
             Compartment c = new Compartment(compartmentCapacity);
             compartments[i] = c;
@@ -31,5 +32,4 @@ public class Tanker extends Vessel{
         }
         return innerCheck;
     }
-
 }

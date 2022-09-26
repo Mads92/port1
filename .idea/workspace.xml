@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Fixed checkCapacity in Vessel">
-      <change afterPath="$PROJECT_DIR$/src/TankerTest.java" afterDir="false" />
+    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Tanker and Compartment tested, appears completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Compartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Compartment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tanker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tanker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vessel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vessel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
       <workItem from="1664116705542" duration="1360000" />
       <workItem from="1664181663900" duration="16000" />
       <workItem from="1664184139298" duration="534000" />
-      <workItem from="1664187453211" duration="2039000" />
+      <workItem from="1664187453211" duration="5477000" />
     </task>
     <task id="LOCAL-00001" summary="Currently working on Roro">
       <created>1663074823172</created>
@@ -186,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664116973985</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tanker and Compartment tested, appears completed">
+      <created>1664189614654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664189614654</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +217,7 @@
     <MESSAGE value="Container rewritten to use doubles, utilitylevelOfCapacity tested" />
     <MESSAGE value="Fixed chackCapacity in Vessel" />
     <MESSAGE value="Fixed checkCapacity in Vessel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed checkCapacity in Vessel" />
+    <MESSAGE value="Tanker and Compartment tested, appears completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tanker and Compartment tested, appears completed" />
   </component>
 </project>
