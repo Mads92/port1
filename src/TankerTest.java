@@ -50,4 +50,24 @@ public class TankerTest {
         assertEquals(true,t.compartments[8].used);
         assertEquals(false,t.compartments[9].used);
     }
+
+    @Test
+    //Idunno, tommy...
+    void attamptIllegalCompartmentCount() {
+       IllegalArgumentException a= new IllegalArgumentException("WHAT");
+        try {
+            Tanker t = new Tanker("bla", "bla", 20, 20, 11, 10);
+        } catch (Exception e) {
+            assertEquals(a.getMessage(),e.getMessage());
+        }
+    }
+    @Test
+    void attamptIllegalCompartmentCount2() {
+        IllegalArgumentException a= new IllegalArgumentException("WHAT");
+        try {
+            Tanker t = new Tanker("bla", "bla", 20, 20, 0, 10);
+        } catch (Exception e) {
+            assertEquals(a.getMessage(),e.getMessage());
+        }
+    }
 }

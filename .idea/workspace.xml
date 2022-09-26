@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Tanker and Compartment tested, appears completed">
+    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Tanker cleaning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tanker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tanker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TankerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TankerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +41,12 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TankerTest.singleFreeCompartment">
-    <configuration name="TankerTest.allCompartmentsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TankerTest">
+    <configuration name="TankerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="allCompartmentsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,11 +61,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.compartmentEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TankerTest.attamptIllegalCompartmentCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="compartmentEmptyTest" />
+      <option name="METHOD_NAME" value="attamptIllegalCompartmentCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TankerTest.attamptIllegalCompartmentCount2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TankerTest" />
+      <option name="METHOD_NAME" value="attamptIllegalCompartmentCount2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,23 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.someUsedCompartments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PortFolio1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="someUsedCompartments" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TankerTest" />
+        <item itemvalue="JUnit.TankerTest.attamptIllegalCompartmentCount2" />
+        <item itemvalue="JUnit.TankerTest.attamptIllegalCompartmentCount" />
         <item itemvalue="JUnit.TankerTest.singleFreeCompartment" />
         <item itemvalue="JUnit.TankerTest.allCompartmentsFull" />
-        <item itemvalue="JUnit.TankerTest.someUsedCompartments" />
-        <item itemvalue="JUnit.TankerTest.allCompartmentsEmpty" />
-        <item itemvalue="JUnit.TankerTest.compartmentEmptyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,7 @@
       <workItem from="1664116705542" duration="1360000" />
       <workItem from="1664181663900" duration="16000" />
       <workItem from="1664184139298" duration="534000" />
-      <workItem from="1664187453211" duration="5477000" />
+      <workItem from="1664187453211" duration="9526000" />
     </task>
     <task id="LOCAL-00001" summary="Currently working on Roro">
       <created>1663074823172</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664189614654</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tanker cleaning">
+      <created>1664193192588</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664193192588</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +225,27 @@
     <MESSAGE value="Fixed chackCapacity in Vessel" />
     <MESSAGE value="Fixed checkCapacity in Vessel" />
     <MESSAGE value="Tanker and Compartment tested, appears completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tanker and Compartment tested, appears completed" />
+    <MESSAGE value="Tanker cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tanker cleaning" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Tanker.java</url>
+          <line>3</line>
+          <properties class="Tanker" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tanker.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
