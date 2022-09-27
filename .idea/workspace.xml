@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Attempt at ensuring Tanker is created correctly. VERY GROSS, but seems to work">
+    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Tanker exception corrected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tanker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tanker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TankerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TankerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,32 +40,37 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TankerTest">
-    <configuration name="TankerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PortFolio1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankerTest" />
+      <option name="MAIN_CLASS_NAME" value="ContainerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.allCompartmentsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="allCompartmentsFull" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.attamptIllegalCompartmentCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TankerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="attamptIllegalCompartmentCount" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,23 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.singleFreeCompartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PortFolio1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="singleFreeCompartment" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RoroTest" />
+        <item itemvalue="JUnit.ContainerTest" />
         <item itemvalue="JUnit.TankerTest" />
         <item itemvalue="JUnit.TankerTest.attamptIllegalCompartmentCount2" />
-        <item itemvalue="JUnit.TankerTest.attamptIllegalCompartmentCount" />
-        <item itemvalue="JUnit.TankerTest.singleFreeCompartment" />
-        <item itemvalue="JUnit.TankerTest.allCompartmentsFull" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +113,7 @@
       <workItem from="1664181663900" duration="16000" />
       <workItem from="1664184139298" duration="534000" />
       <workItem from="1664187453211" duration="9887000" />
-      <workItem from="1664266185780" duration="987000" />
+      <workItem from="1664266185780" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="Currently working on Roro">
       <created>1663074823172</created>
@@ -205,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664197927939</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tanker exception corrected">
+      <created>1664268253642</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664268253642</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +236,7 @@
     <MESSAGE value="Tanker and Compartment tested, appears completed" />
     <MESSAGE value="Tanker cleaning" />
     <MESSAGE value="Attempt at ensuring Tanker is created correctly. VERY GROSS, but seems to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attempt at ensuring Tanker is created correctly. VERY GROSS, but seems to work" />
+    <MESSAGE value="Tanker exception corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tanker exception corrected" />
   </component>
 </project>
