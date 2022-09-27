@@ -36,4 +36,20 @@ public class Tanker extends Vessel{
         }
         return innerCheck;
     }
+    
+    public double usedCompartments(){
+        int used = 0;
+        int unused = compartmentCount;
+        for (int i = 0; i < compartmentCount; i++) {
+            if (compartments[i].used){
+                used++;
+            }
+        } unused = compartmentCount- used;
+        return used;
+    }
+
+    //Casting compartmentCount might not be the best practise?
+    public double utilitylevelOfCapacity(){
+        return (usedCompartments()/ ((double) compartmentCount));
+    }
 }

@@ -29,6 +29,7 @@ public abstract class Vessel {
         return false;
     }
 
+    //Could be rewritten as a String, which could then print carryCapacity + "/" + usedCapacity
     public double utilitylevelOfCapacity(){
         return carryCapacity/usedCapacity;
     }

@@ -70,4 +70,27 @@ public class TankerTest {
             assertEquals(a.getMessage(),e.getMessage());
         }
     }
+
+    @Test
+    void utilityTest(){
+        Tanker t = new Tanker("bla","bla",20,20,10,10);
+        assertEquals(0,t.utilitylevelOfCapacity());
+    }
+    @Test
+    void fullUtitlityTest(){
+        Tanker t = new Tanker("bla","bla",20,20,10,10);
+        for (int i = 0; i < t.compartmentCount; i++) {
+            t.loadingCargo();
+        }
+        assertEquals(1,t.utilitylevelOfCapacity());
+    }
+
+    @Test
+    void halfTest(){
+        Tanker t = new Tanker("bla","bla",20,20,10,10);
+        for (int i = 0; i < 5; i++) {
+            t.loadingCargo();
+        }
+        assertEquals(0.5,t.utilitylevelOfCapacity());
+    }
 }
