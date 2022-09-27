@@ -12,7 +12,7 @@ public class Tanker extends Vessel{
             }
         }
         else{
-            throw new IllegalArgumentException("WHAT");
+            throw new IllegalArgumentException("A Tanker must have 1-10 compartments");
         }
     }
 

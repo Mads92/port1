@@ -54,7 +54,7 @@ public class TankerTest {
     @Test
     //Idunno, tommy...
     void attamptIllegalCompartmentCount() {
-       IllegalArgumentException a= new IllegalArgumentException("WHAT");
+       IllegalArgumentException a= new IllegalArgumentException("A Tanker must have 1-10 compartments");
         try {
             Tanker t = new Tanker("bla", "bla", 20, 20, 11, 10);
         } catch (Exception e) {
@@ -63,7 +63,7 @@ public class TankerTest {
     }
     @Test
     void attamptIllegalCompartmentCount2() {
-        IllegalArgumentException a= new IllegalArgumentException("WHAT");
+        IllegalArgumentException a= new IllegalArgumentException("A Tanker must have 1-10 compartments");
         try {
             Tanker t = new Tanker("bla", "bla", 20, 20, 0, 10);
         } catch (Exception e) {
