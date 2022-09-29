@@ -70,6 +70,6 @@ public abstract class Vessel {
     }
 
     public boolean checkAvailablity(String loadType){
-
+        return false;
     }
 }

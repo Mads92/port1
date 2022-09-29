@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="added utilityLevelOfCapacity to Tanker">
+    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="Updated Vessel with nonfunctional methods from part 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoroTest.java" afterDir="false" />
     </list>
@@ -41,30 +41,22 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RoroTest.roroExactFullLoadCar">
-    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RoroTest.getDestination">
+    <configuration name="RoroTest.getDestination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContainerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="getDestination" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoroTest.getLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RoroTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoroTest.roroExactFullLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PortFolio1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RoroTest" />
-      <option name="METHOD_NAME" value="roroExactFullLoad" />
+      <option name="METHOD_NAME" value="getLocation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,13 +82,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoroTest.testAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="testAvailable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoroTest.getDestination" />
+        <item itemvalue="JUnit.RoroTest.getLocation" />
+        <item itemvalue="JUnit.RoroTest.testAvailable" />
         <item itemvalue="JUnit.RoroTest.roroExactFullLoadCar" />
         <item itemvalue="JUnit.RoroTest.roroExactFullLoadTruck" />
-        <item itemvalue="JUnit.RoroTest.roroExactFullLoad" />
-        <item itemvalue="JUnit.RoroTest" />
-        <item itemvalue="JUnit.ContainerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +121,8 @@
       <workItem from="1664184139298" duration="534000" />
       <workItem from="1664187453211" duration="9887000" />
       <workItem from="1664266185780" duration="5432000" />
-      <workItem from="1664440229189" duration="2105000" />
+      <workItem from="1664440229189" duration="3145000" />
+      <workItem from="1664462330138" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="Currently working on Roro">
       <created>1663074823172</created>
@@ -226,7 +229,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664270616518</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Test roro for exactly full capacity">
+      <created>1664445194357</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664445194357</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated Vessel with nonfunctional methods from part 5">
+      <created>1664469712079</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664469712079</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated Vessel with nonfunctional methods from part 5">
+      <created>1664470520927</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664470520927</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +283,8 @@
     <MESSAGE value="Tanker exception corrected" />
     <MESSAGE value="All types created in Main" />
     <MESSAGE value="added utilityLevelOfCapacity to Tanker" />
-    <option name="LAST_COMMIT_MESSAGE" value="added utilityLevelOfCapacity to Tanker" />
+    <MESSAGE value="Test roro for exactly full capacity" />
+    <MESSAGE value="Updated Vessel with nonfunctional methods from part 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Vessel with nonfunctional methods from part 5" />
   </component>
 </project>

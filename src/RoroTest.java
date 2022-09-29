@@ -50,4 +50,24 @@ public class RoroTest {
         assertEquals(1,r.utilitylevelOfCapacity());
     }
 
+    @Test
+    void testAvailable(){
+        Roro r = new Roro("dk","Noget",35,20,60);
+        assertEquals(false,r.checkAvailablity("Container"));
+    }
+
+    @Test
+    void getLocation(){
+        Roro r = new Roro("dk","Noget",35,20,60);
+        int[] test = new int[2];
+        test[0] = 1;
+        test[1]=2;
+        assertEquals(test,r.getLocation());
+    }
+
+    @Test
+    void getDestination(){
+        Roro r = new Roro("dk","Noget",35,20,60);
+        assertEquals("Singapore",r.getDestination());
+    }
 }
