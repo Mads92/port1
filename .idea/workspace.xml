@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="All types created in Main">
+    <list default="true" id="239aa8a7-d969-4dae-96cd-9a74a195f6cb" name="Changes" comment="added utilityLevelOfCapacity to Tanker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tanker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tanker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TankerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TankerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vessel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vessel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoroTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +41,12 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TankerTest.halfTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.RoroTest.roroExactFullLoadCar">
+    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContainerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,31 +60,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.fullUtitlityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoroTest.roroExactFullLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="fullUtitlityTest" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="roroExactFullLoad" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.halfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoroTest.roroExactFullLoadCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="halfTest" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="roroExactFullLoadCar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankerTest.utilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoroTest.roroExactFullLoadTruck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PortFolio1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TankerTest" />
-      <option name="METHOD_NAME" value="utilityTest" />
+      <option name="MAIN_CLASS_NAME" value="RoroTest" />
+      <option name="METHOD_NAME" value="roroExactFullLoadTruck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TankerTest.halfTest" />
-        <item itemvalue="JUnit.TankerTest.fullUtitlityTest" />
-        <item itemvalue="JUnit.TankerTest.utilityTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RoroTest.roroExactFullLoadCar" />
+        <item itemvalue="JUnit.RoroTest.roroExactFullLoadTruck" />
+        <item itemvalue="JUnit.RoroTest.roroExactFullLoad" />
         <item itemvalue="JUnit.RoroTest" />
+        <item itemvalue="JUnit.ContainerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +118,8 @@
       <workItem from="1664181663900" duration="16000" />
       <workItem from="1664184139298" duration="534000" />
       <workItem from="1664187453211" duration="9887000" />
-      <workItem from="1664266185780" duration="3366000" />
+      <workItem from="1664266185780" duration="5432000" />
+      <workItem from="1664440229189" duration="2105000" />
     </task>
     <task id="LOCAL-00001" summary="Currently working on Roro">
       <created>1663074823172</created>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664269238304</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added utilityLevelOfCapacity to Tanker">
+      <created>1664270616518</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664270616518</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +258,7 @@
     <MESSAGE value="Attempt at ensuring Tanker is created correctly. VERY GROSS, but seems to work" />
     <MESSAGE value="Tanker exception corrected" />
     <MESSAGE value="All types created in Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="All types created in Main" />
+    <MESSAGE value="added utilityLevelOfCapacity to Tanker" />
+    <option name="LAST_COMMIT_MESSAGE" value="added utilityLevelOfCapacity to Tanker" />
   </component>
 </project>

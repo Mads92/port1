@@ -34,4 +34,20 @@ public class RoroTest {
         assertEquals(32,r.unusedLane);
     }
 
+    @Test
+    void roroExactFullLoadCar(){
+        Roro r = new Roro("dk","Noget",35,20,40);
+        r.loadingCargo(5,0);
+        assertEquals(0,r.unusedLane);
+        assertEquals(1,r.utilitylevelOfCapacity());
+    }
+
+    @Test
+    void roroExactFullLoadTruck(){
+        Roro r = new Roro("dk","Noget",35,20,60);
+        r.loadingCargo(0,2);
+        assertEquals(0,r.unusedLane);
+        assertEquals(1,r.utilitylevelOfCapacity());
+    }
+
 }
