@@ -6,12 +6,23 @@ public abstract class Vessel {
     double carryCapacity;
     double usedCapacity;
 
+    int locationX;
+
+    int locationY;
+
+    int[] location;
+
+    String destination;
+
+    boolean available;
+
 
     Vessel(String flagNation, String draft, int length, int width){
         this.flagNation = flagNation;
         this.draft = draft;
         this.length = length;
         this.width = width;
+        location = new int[2];
     }
 
     public void loadingCargo(){
@@ -48,5 +59,17 @@ public abstract class Vessel {
 
     public int getWidth() {
         return width;
+    }
+
+    public int[] getLocation() {
+        return location;
+    }
+
+    public String getDestination(){
+        return destination;
+    }
+
+    public boolean checkAvailablity(){
+
     }
 }
